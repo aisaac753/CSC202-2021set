@@ -1,0 +1,16 @@
+{
+  "name": "typescript-primer",
+  "version": "0.0.1",
+  "description": "Classwork on typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Isaac Adeyemi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.1.5",
+    "typescript": "^5.0.4"
+  }
+}
