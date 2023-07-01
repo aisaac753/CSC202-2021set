@@ -1,0 +1,42 @@
+.container {
+  margin: 20px;
+}
+
+.ClinicalRecord-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ClinicalRecord-table th,
+.ClinicalRecord-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.ClinicalRecord-table th:first-child,
+.ClinicalRecord-table td:first-child {
+  padding-left: 0;
+}
+
+.ClinicalRecord-table th:last-child,
+.ClinicalRecord-table td:last-child {
+  padding-right: 0;
+}
+
+.ClinicalRecord-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.ClinicalRecord-table button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.ClinicalRecord-table button:hover {
+  background-color: #45a049;
+}
+

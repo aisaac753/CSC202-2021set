@@ -1,0 +1,14 @@
+ /* app.css */
+ .click-animation {
+    transition: background-color 0.3s ease;
+  }
+  
+  .click-animation:hover {
+    cursor: pointer;
+  }
+  
+  .click-animation.clicked {
+    background-color: #72bf44;
+  }
+
+  
