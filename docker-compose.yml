@@ -6,18 +6,9 @@ services:
     ports:
       - "5433:5432"
     volumes:
-      - C:\Users\Isaac\data\postgres\csc2021:\data\postgres
+      - C:\Users\NEW\data\postgres\csc2021:\data\postgres
     env_file:
       - csc2021.env
-  database1:
-    container_name: toothfixerprimer
-    image: postgres:latest
-    ports:
-      - "5434:5432"
-    volumes:
-      - C:\Users\Isaac\data\postgres\toothfixerprimer\data\postgres
-    env_file:
-      - toothfixer.env
 
   web:
     container_name: nginx-csc2021
